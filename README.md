@@ -8,19 +8,23 @@ PDF da questão [aqui](PSPD2022_1_Lab1.pdf)
 ### Como rodar
 1) Abra um terminal na pasta local e execute o comando abaixo
 ```
-./server
+cd TCP
+./server 
 ```
 2) Abra outro terminal na pasta local e execute o comando abaixo
 ```
+cd TCP
 ./client
 ```
 ## Conexão RPC 
 ### Como rodar
 1) Abra um terminal na pasta local e execute o comando abaixo
 ```
+cd RPC
 ./projeto_1_server
 ```
 2) Abra outro terminal na pasta local e execute o comando abaixo
 ```
+cd RPC
 ./projeto_1_client localhost
 ```
