@@ -15,7 +15,7 @@ gcc tcp_server_projeto_1.c -o server
 2) Abra outro terminal na pasta local e execute o comando abaixo
 ```
 cd TCP
-gcc tcp_server_projeto_1.c -o -lm server
+gcc tcp_client_projeto_1.c -o -lm server
 ./client
 ```
 ## Conexão RPC 
