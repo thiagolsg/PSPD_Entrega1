@@ -9,11 +9,13 @@ PDF da questão [aqui](PSPD2022_1_Lab1.pdf)
 1) Abra um terminal na pasta local e execute o comando abaixo
 ```
 cd TCP
+gcc tcp_server_projeto_1.c -o server
 ./server 
 ```
 2) Abra outro terminal na pasta local e execute o comando abaixo
 ```
 cd TCP
+gcc tcp_server_projeto_1.c -o -lm server
 ./client
 ```
 ## Conexão RPC 
@@ -21,6 +23,7 @@ cd TCP
 1) Abra um terminal na pasta local e execute o comando abaixo
 ```
 cd RPC
+make
 ./projeto_1_server
 ```
 2) Abra outro terminal na pasta local e execute o comando abaixo
